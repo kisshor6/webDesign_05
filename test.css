@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* all */
+.home{
+    background-color: #FCFAEE;
+}
+
+.center{
+    text-align: center;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1.1rem;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+/* all */
+
+
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bar li{
+    list-style: none;
+}
+.bar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ff5c5c;
+    margin: 0 1.5rem;
+    font-weight: 600;
+}
+.logo{
+    width: 10%;
+}
+.logo img{
+    height: 100px;
+    width: auto;
+}
+input[type="search"]{
+    width: 45%;
+    font-size: 1.1rem;
+    height: 3rem;
+    padding: 1%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.search{
+    background: rgba(0, 0, 0, 0.3) url(images/search.jpg);
+    background-size: cover;
+    padding: 10% 0;
+    background-attachment: fixed;
+    background-position: center;
+}
+.btn-search{
+    color: white;
+    background-color: #ff5c5c;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+
+/* categories */
+
+.category{
+    margin: 3% 0
+}
+.box-3{
+    width: 29%;
+    float: left;
+    margin: 2%;
+    position: relative;
+}
+.box-3 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.headtop{
+    font-size: 2.8rem;
+    font-weight: 800;
+    padding: 1% 0;
+}
+.line{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+    color: white;
+    font-size: 2rem;
+    font-weight: 900
+}
+
+/* categories */
+
+/* food  */
+.food{
+    width: auto;
+    padding: 3rem 0;
+    background-color: #DCDCDCD3;
+}
+.food-menu-box{
+    width: 46%;
+    margin: 1% 2%;
+    padding: 1.5%;
+    float: left;
+    border-radius: 10px;
+    background-color: white;
+}
+.btn-order{
+    background-color: #ff5c5c;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.food-img{
+    width: 20%;
+    float: left;
+}
+.food-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+h4{
+    font-size: 1.4rem;
+}
+.food-des{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.food-price{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 1% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: gray;
+}
+/* food  */
+
+/* social */
+
+.social ul li a{
+    text-decoration: none;
+}
+.social ul li {
+    display: inline;
+    padding: 1%;
+}
+.vindra{
+    font-size: 1.3rem;
+    color: #ff5c5c;
+}
+
+/* social */ 
+.last{
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+
+/* other */
+
+
+/* contact  */
+.form{
+    max-width: 1;
+}
+
+.next-text2 {
+    margin: 1rem 0 0 2rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.container6 {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 40vh;
+}
+.fsst {
+    text-align: center;
+    width: 31%;
+    height: 90%;
+    margin: auto;
+    background-color: #F8f9f7;
+}
+.ig_side {
+    width: 120px;
+    height: auto;
+    margin: 1rem auto;
+}
+.ig_side img {
+    color: #ff5c5c;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.c {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.c2 {
+    font-size: 1.2rem;
+    padding: 1rem 5rem;
+    font-weight: 500;
+}
+.vl {
+    margin-top: 8px;
+    border-left: 6px solid #ff5c5c;
+    height: 96%;
+}
+
+.map{
+    width: 80%;
+    height: 60vh;
+    margin: 5rem auto;
+}
+iframe {
+    width: 100%;
+    height: 98%;
+}
+#first_line{
+    margin-top: 1.5rem;
+}
+.lower_section {
+    height: 75%;
+    width: auto;
+}
+.two-form {
+    display: flex;
+}
+.name {
+    font-size: 1.2rem;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    height: 3.5rem;
+    padding-left: 2rem;
+    width: 45%;
+}
+.contactus-input {
+    font-size: 1.2rem;
+    outline: none;
+    border: 1px solid gra;
+    border-radius: 10px;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    padding: 2rem;
+    height: 20rem;
+    padding-left: 2rem;
+    width: 93.5%;
+}
+#button {
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    height: 3.5rem;
+    width: 13rem;
+    border: none;
+    padding: 5px;
+    font-size: 19px;
+    background-color: #ff5c5c;
+    border-radius: 30px;
+}
+
+
+/* contact  */
